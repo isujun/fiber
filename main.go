@@ -24,6 +24,7 @@ func main() {
 		return c.JSON(fiber.Map{
 			"message": "Hello, Railway!",
 			"respon":  "201",
+			"login":   true,
 		})
 	})
 
